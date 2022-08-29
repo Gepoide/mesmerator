@@ -1,0 +1,16 @@
+html, body {
+  overflow: hidden;
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  width:100%;
+  min-width:100%;
+  position: relative;
+}
+canvas {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
