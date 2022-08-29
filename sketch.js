@@ -11,12 +11,15 @@ let a = 255;
 let b = 255;
 let font1 = "BelledeMai4.0-Regular.otf", belleDeMai;
 
+function preload() {
+  belleDeMai = loadFont(font1);
+}
+
 function setup() {
-   belleDeMai = loadFont(font1);
+  belleDeMai = loadFont(font1);
   createCanvas(window.innerWidth, window.innerHeight);
   g = createGraphics(width, height);
   background(b);
- 
 }
 
 function mousePressed() {
